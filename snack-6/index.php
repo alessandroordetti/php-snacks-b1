@@ -29,6 +29,7 @@
 
     var_dump($values);
 
+    //scompogno in due array separati
     $teachers = $db['teachers'];
     $pm = $db['pm'];
 
