@@ -1,0 +1,12 @@
+div {
+    display: inline-block;
+    width: 350px;
+}
+
+.teachers {
+    background-color: gray;
+}
+
+.pm {
+    background-color: green;
+}

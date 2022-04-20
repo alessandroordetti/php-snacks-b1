@@ -19,8 +19,6 @@
     } else {
         echo 'Accesso negato';
     }
-
-    
 ?>
 
 <!DOCTYPE html>
@@ -32,10 +30,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
-        <?php
-            
-        ?>
+    <p> 
+        Ciao<?php $name ?>
     </p>
 </body>
 </html>
