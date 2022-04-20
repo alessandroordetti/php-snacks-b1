@@ -25,7 +25,24 @@
 
         var_dump($matches);
 
-        for ($i = 0; $i < count($matches); $i++) {
-            echo $matches[$i]['homeTeam'];
-        }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul>
+        <?php for ($index = 0; $index < count($matches); $index++ ){ ?>
+            <li> 
+                <?php echo $matches[$index]['homeTeam'] ?> - <?php echo $matches[$index]['guestTeam'] ?> | <?php echo $matches[$index]['scoreHomeTeam'] . '-' . $matches[$index]['scoreGuestTeam']?>     
+            </li>
+        <?php } ?>
+    </ul>
+</body>
+</html>
