@@ -8,9 +8,7 @@
         if (!in_array($randomNumber, $randomNumbers)) {
             array_push($randomNumbers, $randomNumber);
             $counter++;
-        } 
-
-        
+        }
     }
 
     var_dump($randomNumbers);

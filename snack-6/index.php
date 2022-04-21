@@ -27,11 +27,12 @@
 
     $values = array_values($db);
 
-    var_dump($values);
-
     //scompogno in due array separati
     $teachers = $db['teachers'];
     $pm = $db['pm'];
+
+    var_dump($teachers);
+    var_dump($pm);
 
 ?>
 
